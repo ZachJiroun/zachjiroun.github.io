@@ -1,0 +1,21 @@
+body {
+  margin: 0 auto;
+  padding: 0 10%;
+}
+
+a {
+  text-decoration: underline;
+}
+
+.photo {
+  display: block;
+  max-width: 250px;
+  float: left;
+  border-radius: 100%;
+}
+
+.aboutme {
+  display: block;
+}
+
+/*# sourceMappingURL=main.css.map */

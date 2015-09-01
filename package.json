@@ -1,0 +1,13 @@
+{
+  "name": "hackzach",
+  "version": "1.0.0",
+  "description": "my personal site",
+  "devDependencies": {
+    "del": "^2.0.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.5.2",
+    "browser-sync": "^2.8.2"
+  }
+}
