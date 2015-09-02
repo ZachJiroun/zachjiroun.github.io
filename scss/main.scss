@@ -1,19 +1,73 @@
+@import "variables";
+
+* {
+	font-family: 'Hind', serif;
+}
+
+a {
+	text-decoration: underline;
+	color: #2980B9;
+}
+
+header {
+	.photo {
+		display: block;
+		max-width: 200px;
+		margin: 30px auto;
+		border-radius: 100%;
+	}
+	.aboutme {
+		h1 {
+			margin: 0;
+			padding: 0;
+		}
+		text-align: center;
+	}
+}
+
 body {
 	margin: 0 auto;
 	padding: 0 10%;
 }
 
-a {
-	text-decoration: underline;
+section {
+	ul {
+		padding-left: 0;
+		list-style: none;
+	}
+	li {
+		padding-left: 20px;
+		text-indent: -20px;
+	}
 }
 
-.photo {
-	display: block;
-	max-width: 250px;
-	float: left;
-	border-radius: 100%;
+footer {
+	margin-top: 30px;
+	text-align: center;
+	.fa {
+		color: black;
+		margin: 0 5px;
+		margin-bottom: 20px;
+	}
+	.resume {
+		color: black;
+	}
 }
 
-.aboutme {
-	display: block;
+@media screen and (min-width: $phone) {
+	header {
+		.photo {
+		float: left;
+		margin: 30 5% 80px 0;
+		}
+		.aboutme {
+			text-align: left;
+		}
+	}
 }
+
+.umd { color: $umdred; }
+.bitcamp { color: $bitcamp; }
+.doctorup { color: $doctorup; }
+.fireside { color: $fireside; }
+.clover { color: $clover; }
