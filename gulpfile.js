@@ -44,7 +44,7 @@ gulp.task('watch', function() {
 		}
 	});
 	gulp.watch('scss/*.scss', ['compileSass'])
-	gulp.watch(['index.html', 'img/**', 'fonts/**']).on('change', browserSync.reload);
+	gulp.watch(['index.html', 'img/**']).on('change', browserSync.reload);
 });
 
 // -----------------------------------------------------------------------------
@@ -52,7 +52,7 @@ gulp.task('watch', function() {
 // -----------------------------------------------------------------------------
 
 gulp.task('build', ['clean', 'compileSass'], function() {
-	return gulp.src(['index.html', 'css/main.css', 'img/**', 'fonts/**'], { base: './' })
+	return gulp.src(['index.html', 'css/main.css', 'img/**'], { base: './' })
 		.pipe(gulp.dest('dist'));
 });
 

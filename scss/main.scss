@@ -66,10 +66,8 @@ footer {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-
 		.photo {
 			flex-direction: column;
-			//border: 1px blue solid;
 			width: 50%;
 			margin-right: 30px;
 			img {
@@ -79,7 +77,6 @@ footer {
 		}
 		.aboutme {
 			flex-direction: column;
-		//	border: 1px green solid;
 			width: 50%;
 			h1, p { 
 			text-align: left;
@@ -92,20 +89,16 @@ footer {
 		justify-content: center;
 		h2 {
 			flex-direction: column;
-		//	border: 1px blue solid;
 			width: 50%;
 			margin-right: 30px;
 			text-align: right;
 		}
 		ul, p {
 			flex-direction: column;
-		//	border: 1px green solid;
 			width: 50%;
 		}
-		//border: 1px red solid;
 	}
 }
-
 
 .umd { color: $umdred; }
 .bitcamp { color: $bitcamp; }
