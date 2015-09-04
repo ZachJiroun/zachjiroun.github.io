@@ -59,6 +59,10 @@ footer .resume {
 }
 
 @media screen and (min-width: 480px) {
+  main {
+    padding-top: 30px;
+    padding-right: 8%;
+  }
   header {
     display: -webkit-box;
     display: -webkit-flex;
