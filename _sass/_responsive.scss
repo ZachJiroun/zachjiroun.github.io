@@ -1,0 +1,27 @@
+// Responsive
+
+// Breakpoints
+
+$tablet: 481px;
+$laptop: 769px;
+$desktop: 1281px;
+
+// Media Queries
+
+@mixin tablet {
+  @media screen and (min-width: $tablet) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media screen and (min-width: $laptop) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: $desktop) {
+    @content;
+  }
+}

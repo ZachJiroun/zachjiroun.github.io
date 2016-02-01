@@ -1,0 +1,19 @@
+ # Site settings
+
+title: Zach Jiroun
+email: zjiroun@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Computers & Entrepreneurship are my thing.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://hackza.ch" # the base hostname & protocol for your site
+exclude: ["README.md", "CNAME"] # files excluded from _site
+timezone: America/New_York
+
+twitter_username: rhymeswithjack
+github_username:  zachjiroun
+
+# Build settings
+markdown: kramdown
+
+gems:
+  - octopress-autoprefixer
