@@ -1,5 +1,7 @@
 # Personal Site
 
-Run it on your machine: 'gulp'
+Install dependencies: `npm install`
 
-Build the public site: 'gulp build'
+Run it on your machine: `gulp`
+
+Build the public site: `gulp build`
