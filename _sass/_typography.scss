@@ -1,0 +1,20 @@
+// Typography
+
+@include font-face("Source Sans Pro", "source-sans-pro/SourceSansPro-Bold", 700);
+@include font-face("Source Sans Pro", "source-sans-pro/SourceSansPro-Semibold", 600);
+@include font-face("Source Sans Pro", "source-sans-pro/SourceSansPro-Regular", 400);
+
+body {
+  font-family: $primary-font, serif;
+  font-size: 100%;
+  color: $primary-color;
+  font-style: 600;
+}
+
+a, h3, h4 {
+  color: $secondary-color;
+}
+
+p {
+  font-style: 400;
+}

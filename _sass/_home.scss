@@ -15,7 +15,6 @@ header {
 
 .links {
   a {
-    color: blue;
     &:hover {
       transform: translateY(-.5rem);
     }
@@ -30,21 +29,22 @@ header {
 .post-list {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
 }
 
 .post-item {
-  margin-bottom: 1rem;
+  margin: 1rem;
   width: 100%;
   border-radius: .25rem;
   box-shadow: 0 0 20px rgba(#000, .1);
-  transition: all .25s ease;
+  transition: all $animation-durration ease;
   background-color: $post-background;
   @include tablet {
-    width: 50%;
+    width: 43%;
     flex-grow: 0;
   }
   @include laptop {
-    width: 33.33%;
+    width: 29%;
   }
   @include desktop {
     width: 25%;
@@ -65,15 +65,14 @@ img {
 
 .post-title {
   font-size: 1.2rem;
-  font-weight: bold;
   line-height: 1.2;
+  color: $primary-color;
 }
 
 .post-description {
-//  font-size: 1.4rem;
-  opacity: .6;
   padding: .4em 0;
   line-height: 1.2;
+  color: $secondary-color;
 }
 
 // Footer

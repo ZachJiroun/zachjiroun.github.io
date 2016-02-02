@@ -1,0 +1,15 @@
+// Mixins
+
+// Font-Face
+
+@mixin font-face($font-name, $file-name, $font-weight: normal, $font-style: normal) {
+  @font-face {
+    font-family: $font-name;
+    src: url("../fonts/#{$file-name}.eot"),
+    url("../fonts/#{$file-name}.ttf.woff2") format("woff2"),
+    url("../fonts/#{$file-name}.ttf.woff") format("woff"),
+    url("../fonts/#{$file-name}.ttf") format("truetype");
+    font-weight: $font-weight;
+    font-style: $font-style;
+  }
+}

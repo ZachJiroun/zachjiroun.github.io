@@ -9,6 +9,10 @@ dl, dd, ol, ul, figure {
   padding: 0;
 }
 
+html {
+  font-family: $primary-font;
+}
+
 a {
   text-decoration: none;
 }
@@ -25,6 +29,7 @@ header {
   text-align: center;
   padding: 2.5rem;
 }
+
 
 // /**
 //  * Reset some basic elements

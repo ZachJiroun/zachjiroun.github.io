@@ -6,7 +6,9 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "variables",
+        "mixins",
         "responsive",
+        "typography",
         "base",
         "home"
 ;
