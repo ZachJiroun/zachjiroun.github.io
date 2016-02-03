@@ -144,7 +144,7 @@ footer {
   display: block;
   margin: 0 auto; }
 .post-content h3 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin: 2rem 2rem 0 2rem;
   text-align: center; }
   @media screen and (min-width: 481px) {
@@ -156,7 +156,6 @@ footer {
 .post-content p {
   font-size: 1.25rem;
   margin: 2rem;
-  max-width: 60rem;
   text-align: left; }
   @media screen and (min-width: 481px) {
     .post-content p {
