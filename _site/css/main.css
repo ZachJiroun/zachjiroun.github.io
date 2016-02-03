@@ -116,20 +116,28 @@ header {
 .post-info {
   padding: 1rem 1.6rem;
   border-radius: 0 0 .25rem .25rem; }
-
-.post-title {
-  font-size: 1.2rem;
-  line-height: 1.2;
-  color: #404040; }
-
-.post-description {
-  padding: .4em 0;
-  line-height: 1.2;
-  color: rgba(64, 64, 64, 0.75); }
+  .post-info h4 {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    color: #404040; }
+  .post-info p {
+    padding: .4em 0;
+    line-height: 1.2;
+    color: rgba(64, 64, 64, 0.75); }
 
 footer {
   padding: 2.5rem;
   text-align: center; }
+
+.post-title {
+  font-size: 4rem;
+  line-height: 1.5; }
+  @media screen and (min-width: 481px) {
+    .post-title {
+      font-size: 5rem; } }
+  @media screen and (min-width: 769px) {
+    .post-title {
+      font-size: 6rem; } }
 
 .post-content .full-width {
   max-width: 100%;
@@ -148,7 +156,9 @@ footer {
 .post-content p {
   font-size: 1.25rem;
   margin: 2rem;
-  text-align: center; }
+  max-width: 60rem;
+  text-align: left; }
   @media screen and (min-width: 481px) {
     .post-content p {
-      font-size: 1.5rem; } }
+      font-size: 1.5rem;
+      text-align: center; } }

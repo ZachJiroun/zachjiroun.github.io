@@ -1,31 +1,44 @@
 // Post
 
-.post-content {
-
-.full-width {
-  max-width: 100%;
-  display: block;
-  margin: 0 auto;
-}
-
-h3 {
+.post-title {
+  font-size: 4rem;
+  line-height: 1.5;
   @include tablet {
-    font-size: 2rem;
+    font-size: 5rem;
   }
   @include laptop {
-    font-size: 2.5rem;
+    font-size: 6rem;
   }
-  font-size: 1.5rem;
-  margin: 2rem 2rem 0 2rem;
-  text-align: center;
 }
 
-p {
-  @include tablet {
-    font-size: 1.5rem;
+.post-content {
+
+  .full-width {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
   }
-  font-size: 1.25rem;
-  margin: 2rem;
-  text-align: center;
-}
+
+  h3 {
+    @include tablet {
+      font-size: 2rem;
+    }
+    @include laptop {
+      font-size: 2.5rem;
+    }
+    font-size: 1.5rem;
+    margin: 2rem 2rem 0 2rem;
+    text-align: center;
+  }
+
+  p {
+    @include tablet {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+    font-size: 1.25rem;
+    margin: 2rem;
+    max-width: 60rem;
+    text-align: left;
+  }
 }

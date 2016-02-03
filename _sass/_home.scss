@@ -75,18 +75,17 @@ header {
 .post-info {
   padding: 1rem 1.6rem;
   border-radius: 0 0 .25rem .25rem;
-}
+  h4 {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    color: $primary-color;
+  }
 
-.post-title {
-  font-size: 1.2rem;
-  line-height: 1.2;
-  color: $primary-color;
-}
-
-.post-description {
-  padding: .4em 0;
-  line-height: 1.2;
-  color: $secondary-color;
+  p {
+    padding: .4em 0;
+    line-height: 1.2;
+    color: $secondary-color;
+  }
 }
 
 // Footer
