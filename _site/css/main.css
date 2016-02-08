@@ -143,9 +143,13 @@ footer {
   max-width: 100%;
   display: block;
   margin: 0 auto; }
+.post-content .space {
+  max-width: 50%;
+  display: block;
+  margin: 0 auto 2rem auto; }
 .post-content h3 {
-  font-size: 1.25rem;
-  margin: 2rem 2rem 0 2rem;
+  font-size: 1.5rem;
+  margin: 2rem;
   text-align: center; }
   @media screen and (min-width: 481px) {
     .post-content h3 {
